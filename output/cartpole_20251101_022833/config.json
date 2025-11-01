@@ -1,0 +1,17 @@
+{
+  "episodes": 800,
+  "gamma": 0.95,
+  "buffer_capacity": 100000,
+  "batch_size": 64,
+  "lr": 0.001,
+  "train_start": 1000,
+  "target_update": 1000,
+  "eps_start": 1.0,
+  "eps_end": 0.05,
+  "eps_decay_episodes": 400,
+  "max_steps": 500,
+  "hidden": 128,
+  "huber": true,
+  "seed": 42,
+  "device": "cuda"
+}

@@ -1,0 +1,12 @@
+# Core
+torch>=2.1
+numpy>=1.24
+matplotlib>=3.7
+tqdm>=4.66
+# Gym (choose version matching your environment)
+gym==0.26.2
+ale-py>=0.8.1
+AutoROM==0.6.1
+# If using gymnasium instead of gym:
+# gymnasium[atari]==0.29.1
+# shimmy>=1.3.0
